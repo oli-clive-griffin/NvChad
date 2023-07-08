@@ -22,6 +22,8 @@ M.general = {
     ["<C-l>"] = { "<C-w>l", "Window right" },
     ["<C-j>"] = { "<C-w>j", "Window down" },
     ["<C-k>"] = { "<C-w>k", "Window up" },
+    ["<S-l>"] = { "$", "End of line" },
+    ["<S-h>"] = { "^", "beginning of line" },
 
     -- save
     ["<C-s>"] = { "<cmd> w <CR>", "Save file" },
